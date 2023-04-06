@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin:0px;
+    color:hsl(0, 36%, 70%);
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    height:100vh;
+    place-content: center;
+
+}
+
+.section-2{
+    background-image: url('./images/hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+}
+.section-1{
+    background-image: linear-gradient(to bottom,hsl(0, 0%, 100%), hsl(0, 100%, 98%),hsl(0, 0%, 100%));
+   
+    width: 400px;
+    padding: 40px;
+    text-align: left;
+}
+   
+#submit:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.icon{
+    background-image: url('./images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    background-position-y: 2px;
+}
+.content{
+    box-shadow: 5px 4px 10px #888888;
+    display: flex;
+    width: 800px;
+}
+.section-1 h1{
+    margin-top: 30px;
+
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: left;
+}
+.section-1 h1 span{
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+
+}
+.section-1 p{
+    line-height: 1.3rem;
+    font-size: 1rem;
+
+}
+input{
+    border-radius: 25px;
+    width:100%;
+    border-color: hsl(0, 74%, 74%);
+
+    height:2rem;
+}
+.form-1{
+    display: flex;
+    margin: 25px;
+}
+.input{
+    color:black
+}
+#mobile,
+#mobile1{
+    display: none;
+}
+#submit{
+    background-image: linear-gradient(to right,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    padding: 6px 25px;
+    border-radius: 20px;
+    margin-left: -60px;
+}
+
+.error{
+    font-size: 0.8rem;
+    opacity:0.8;
+}
+@media (max-width: 640px){
+   .container{
+    margin-top: 14%;
+    margin-bottom: 30%;
+   }
+    .content{
+     width: 80%;
+     margin: 10%;
+     flex-direction: column-reverse;
+}
+.section-1{
+    width:80%;
+}
+.section-2{
+    height:400px;
+    width:100%;
+}
+    
+}
+
+@media (max-width: 375px){
+   .container{
+    width:100%;
+    margin-top: 40%;
+    box-sizing: border-box;
+
+   }
+     .content{
+      width: 100%;
+      margin-top: 0;
+      margin-left: 0%;
+      flex-direction: column-reverse;
+ }
+ .section-1{
+     width:100%;
+     margin-top: -80px;
+ }
+ .section-2{
+     margin-top: 100px;
+     background-image: none;
+     margin-bottom:0px;
+     position: relative;
+     width:100%;
+ }
+ .logo{
+    display: none;
+ }
+ #mobile{
+    display: block;
+    margin-top:20px;
+    padding:20px;
+    width:150px;
+    height:100px;
+ }
+ #mobile1{
+    position: absolute;
+    width: 100%;
+    display: block;
+ }
+
+ .attribution{
+    display: none;
+ }
+     
+ }
+ 
