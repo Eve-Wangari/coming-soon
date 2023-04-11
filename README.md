@@ -13,7 +13,7 @@ Users should be able to:
   - The email address is not formatted correctly
 
 ### Screenshot
-
+ - [Go to live site:](https://thriving-daffodil-c34da3.netlify.app/)
 ### Built with
 
 - Semantic HTML5 markup
